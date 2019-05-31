@@ -5,12 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class ConstantsService {
 
-  public baseUrl: string = `http://localhost:8080/straw-app`;
-  // public baseUrl: string = `http://10.8.18.51/straw-app-staging`;
-  // public baseUrl: string = `http://10.8.18.51/straw-app`;
-  // public baseUrl: string = `http://203.100.79.185/straw-app`;
-  // public baseUrl: string = `https://straw.blackcatzinc.com/straw-app-staging`;
-  // public baseUrl: string = `https://straw.blackcatzinc.com/straw-app`;
+  public baseUrl: string = `http://localhost:8080/app`;
     
   public userImageLink: string;
   public token: string;
