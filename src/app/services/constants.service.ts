@@ -16,7 +16,7 @@ export class ConstantsService {
 
   constructor() {
 
-    // this.baseUrl = `http://localhost:8080/straw-app`;
+    // this.baseUrl = `http://localhost:8080/app`;
 
     this.userImageLink = `${this.baseUrl}/storage/`;
     this.pollImageLink = `${this.baseUrl}/storage/polls/`;
