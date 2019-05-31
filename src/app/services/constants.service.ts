@@ -17,11 +17,6 @@ export class ConstantsService {
   constructor() {
 
     // this.baseUrl = `http://localhost:8080/straw-app`;
-    // this.baseUrl = `http://10.8.18.51/straw-app-staging`;
-    // this.baseUrl = `http://10.8.18.51/straw-app`;
-    // this.baseUrl = `http://203.100.79.185/straw-app`;
-    this.baseUrl = `https://straw.blackcatzinc.com/straw-app-staging`;
-    // this.baseUrl = `https://straw.blackcatzinc.com/straw-app`;
 
     this.userImageLink = `${this.baseUrl}/storage/`;
     this.pollImageLink = `${this.baseUrl}/storage/polls/`;
